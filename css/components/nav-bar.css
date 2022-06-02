@@ -1,0 +1,33 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  color: white;
+  background-color: tomato;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
