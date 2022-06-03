@@ -5,8 +5,27 @@
   padding: 15px 0;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link > i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 20px;
+  border-top: var(--border-color);
+  padding-top: 15px;
 }

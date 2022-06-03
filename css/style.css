@@ -7,12 +7,18 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
 }
