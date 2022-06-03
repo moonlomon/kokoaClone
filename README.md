@@ -11,5 +11,5 @@ I will the kokoa master!!!
 
 ~ chap.6.25
 
-fixed 'Chats'screen
-create 'Find'screen
+.fixed 'Chats'screen
+.create 'Find'screen
