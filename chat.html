@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>setting - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service!</span>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Google sama</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <span>Sunday, June 5, 2022</span>
+      </div>
+      <div class="message-row message-row__him">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0xl3a-kjqyfVkqWeBXAVDTI4GoWp29tWdQ&usqp=CAU"
+        />
+        <div class="message-row__contents">
+          <span class="message-row__author">Google sama</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">Who a u??</span>
+            <span class="message-row__time">15:14</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__mine">
+        <div class="message-row__contents">
+          <div class="message-row__info">
+            <span class="message-row__bubble"
+              >I'm your slave. i'm not free.</span
+            >
+            <span class="message-row__time">15:14</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-grin"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="only-mobile">
+      <span>Too big screen :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ec0f5a1d31.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

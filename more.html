@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>find - Kokoa Clone</title>
+    <title>more - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,64 +24,68 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icon">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/캡처.PNG" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">S.J.</h4>
+            <h6 class="user-component__subtitle">
+              +82 10-7527-4969<i
+                class="fa-solid fa-circle-exclamation warning"
+              ></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+
       <div class="icon-row">
         <div class="icon-row__icons">
-          <i class="fa-solid fa-qrcode"></i>
-          <span>QR Code</span>
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calender</span>
         </div>
         <div class="icon-row__icons">
-          <i class="fa-regular fa-address-book"></i>
-          <span>Add by Contracts</span>
+          <i class="fa-regular fa-face-grin-squint"></i>
+          <span>Emoticons</span>
         </div>
         <div class="icon-row__icons">
-          <i class="fa-solid fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
         </div>
         <div class="icon-row__icons">
-          <i class="fa-regular fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          <span>Account</span>
         </div>
       </div>
-      <div class="recommended-freinds">
-        <h6 class="recommended-freinds__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat-header">
-          <h4 class="open-chat-header__title">Open Chat</h4>
-          <span class="open-chat-header__link"
-            >Go to Openchat Home <i class="fa-solid fa-angle-right"></i
-          ></span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#Heize</h5>
-            <span class="open-post__hashtags">#Heize#Dduck#Bang-At-gan</span>
-            <div class="open-post__members">
-              <img src="img/캡처.PNG" />
-              <span class="open-post__member-count">802 members</span>
-              <div class="devider"></div>
-              <span class="open-post__member-status">Active</span>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">Kokoa story</span>
           </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img
-                src="https://file.mk.co.kr/meet/neds/2021/02/image_readtop_2021_188127_16142386024553959.jpg"
-              />
-              <div class="open-post__heart-count">
-                <i class="fa-solid fa-heart fa-xs"></i><span>999</span>
-              </div>
+          <a href="https://www.youtube.com/channel/UCRmShE13u8THvf_ptRVktRg">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image mysinger"></div>
+              <span class="more-suggestions__icon-text">10cm_official</span>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </main>

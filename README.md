@@ -13,3 +13,5 @@ I will the kokoa master!!!
 
 -fixed 'Chats'screen
 -create 'Find'screen
+
+# 22.06.05. Finish Kokoa Clone!

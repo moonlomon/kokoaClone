@@ -15,3 +15,16 @@
 .screen-header__icon > span {
   margin-left: 20px;
 }
+
+@keyframes gearRotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icon .fa-gear:hover {
+  animation: gearRotate 4s linear infinite;
+}

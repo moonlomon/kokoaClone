@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>chats - Kokoa Clone</title>
+    <title>setting - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,35 +23,48 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icon">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-comment-medical fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Setting</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
       </div>
     </header>
 
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0xl3a-kjqyfVkqWeBXAVDTI4GoWp29tWdQ&usqp=CAU"
-              class="user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Google sama</h4>
-              <h6 class="user-component__subtitle">I am inevitable</h6>
-            </div>
+    <main class="main-screen more-screen">
+      <ul class="settings">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">16:24</span>
-            <div class="badge">1</div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-flask"></i>
+            <span>Kokoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">
+            <span>Lastest Version</span>
+          </div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -64,7 +77,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav-notification badge">1</span>
-            <i class="fa-solid fa-comment fa-2x"></i>
+            <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
