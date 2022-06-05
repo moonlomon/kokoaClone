@@ -15,3 +15,5 @@ I will the kokoa master!!!
 -create 'Find'screen
 
 # 22.06.05. Finish Kokoa Clone!
+
+# 22.06.06. github practice
